@@ -1,14 +1,16 @@
 Three different behaviors that you made:
-1. ???
-2. ???
-3. ???
+1. The Wheel Angel is animated in several ways. It blinks (the size of its pupil changes mid blink like a real eye), 
+    hovers up and down, and its wheels move. The large eye of the Wheel Angel and the eyes on its smaller ring track the person in front of it.
+    The large eye tracks the person smoothly.
+2. The beam of light changes color based on the person's judgement and becomes transparent as the person moves away.
+3. The line of people moves forwards and recieves one of two judgement. People judged good go up to Heaven. People judged bad go down to Hell.
 
 One behavior that is not simple:
-Not simple: ???
+Not simple: The line of people moves forwards and each person recieves "judgement" from the wheel angel. Some go up, others go down. The angel smoothly tracks their movement with its large eye.
 
 Animated Articulated Figure:
-Articulated: ???
+Articulated: The Wheel Angel moves and responds to the movement of the people in the line.
 
 Other Behaviors that you made: (backup in case something above doesn't count)
-- ???
-- ???
+- The wheel of the unicycle spins
+- 

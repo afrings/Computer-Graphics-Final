@@ -1,15 +1,25 @@
 import * as T from "../libs/CS559-Three/build/three.module.js";
 import { GrObject } from "../libs/CS559-Framework/GrObject.js";
+import { ShaderMaterial } from "../libs/CS559-Three/build/three.module.js";
 
 // define your vehicles here - remember, they need to be imported
 // into the "main" program
 
-export class unicycle extends GrObject {
+export class Unicycle extends GrObject {
     constructor() {
         let body = new T.Group();
+        super("Unicycle", body);
+
+        let shaderMat = new ShaderMaterial("./shaders/10-09-03.vs", "./shaders/10-09-03.fs", {
+            side: T.DoubleSide,
+            uniforms: {
+                x:{value:0}
+            },
+        })
+
         body.translateY(0.3);
         let barGeometry = new T.CylinderGeometry(0.125,0.125,2,20,20);
-        let tl = new T.TextureLoader().load("../textures/metal.png");
+        let tl = new T.TextureLoader().load("images/metal.jpg");
         let material = new T.MeshStandardMaterial({
             color: 'white',
             roughness: 0.25,
@@ -26,26 +36,25 @@ export class unicycle extends GrObject {
         bar.translateZ(-0.25);
         body.add(bar);
 
-        let wheel = new T.Group();
+        this.wheel = new T.Group();
+        this.wheel.translateY(1);
         let i = 0;
         while (i < Math.PI * 2){
-            bar = new T.Mesh(barGeometry, material);
+            bar = new T.Mesh(barGeometry, shaderMat);
             bar.scale.set(0.25,1,0.25);
-            bar.translateY(1);
-            wheel.add(bar);
+            this.wheel.add(bar);
             bar.rotateZ(i);
             i = i + Math.PI/5;
 
             bar = new T.Mesh(barGeometry, tireMaterial);
-            bar.translateY(1);
-            wheel.add(bar);
+            this.wheel.add(bar);
             bar.rotateZ(i);
             bar.rotateZ(Math.PI/2);
             bar.translateX(1);
             bar.scale.set(0.4,0.34,0.8);
         }
-        wheel.scale.set(1.3,1.3,1);
-        body.add(wheel);
+        this.wheel.scale.set(1.3,1.3,1);
+        body.add(this.wheel);
 
         bar = new T.Mesh(barGeometry, material);
         bar.translateY(3);
@@ -67,7 +76,8 @@ export class unicycle extends GrObject {
         body.add(seat);
 
         body.scale.set(0.5,0.5,0.5);
-
-        super("building", body);
+    }
+    stepWorld(delta){
+        this.wheel.rotateZ(delta/500);
     }
 }
