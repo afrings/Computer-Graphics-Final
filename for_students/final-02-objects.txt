@@ -1,5 +1,5 @@
 (Required) Two kinds of objects created for this assignment:
-1. The wheel angel
+1. The Wheel Angel
 2. The Gate
 
 (Required) Five other kinds of objects that you created (possibly in previous assignments):

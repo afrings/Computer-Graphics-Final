@@ -6,7 +6,8 @@ Three different behaviors that you made:
 3. The line of people moves forwards and recieves one of two judgement. People judged good go up to Heaven. People judged bad go down to Hell.
 
 One behavior that is not simple:
-Not simple: The line of people moves forwards and each person recieves "judgement" from the wheel angel. Some go up, others go down. The angel smoothly tracks their movement with its large eye.
+Not simple: The line of people moves forwards and each person recieves "judgement" from the wheel angel. 
+Some go up, others go down. The angel smoothly tracks their movement with its large eye and unsmoothly with the eyes on its smaller wheel.
 
 Animated Articulated Figure:
 Articulated: The Wheel Angel moves and responds to the movement of the people in the line.
