@@ -1,0 +1,28 @@
+(Required) Two kinds of objects created for this assignment:
+1. The Wheel Angel
+2. The Gate
+
+(Required) Five other kinds of objects that you created (possibly in previous assignments):
+3. Trees
+4. Unicycle
+5. Skybox
+6. Castle
+7. Cloud
+
+(Optional) Backup Objects (more objects that you created, in case the ones above don't count):
+- 
+- 
+- 
+
+At least on of each type of object:
+Building/structure: Castle
+Vehicle: Unicycle
+Natural Element: Trees
+
+Object loaded from a model file:
+Model: Humans
+
+An object with a shader that you wrote:
+ShaderObj: Unicycle
+
+Other Objects that you would like to note:

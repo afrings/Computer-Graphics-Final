@@ -1,0 +1,25 @@
+List all attributions here, this include "self-attributions":
+
+Human Model: https://sketchfab.com/aaron.kalvin
+
+eyelid.jpg: https://www.rawpixel.com/image/3065540/premium-illustration-psd-marble-white-gold-fluid-art
+
+galaxyskybox.jpg: https://www.artstation.com/cosmicspark
+
+goldtexture.jpg: https://www.pinterest.com/pin/776167317004690683/
+
+marbletexture.jpg: https://www.pinterest.com/pin/luxury-gold-marble-texture-backgroundmarble-with-golden--537476536789198637/
+
+metal.jpg: https://www.vecteezy.com/vector-art/2855748-silver-foil-metallic-gradient-background
+
+watertexture.jpg: https://www.dreamstime.com/royalty-free-stock-photo-water-texture-image22667435
+
+whitevein.jpg: https://www.pinterest.com/pin/155092780907552034/
+
+unicycle.js: Self-attribution from workbook 8 (car.js)
+
+tree.js: Self-attribution from workbook 8 (building.js)
+
+castletexture.png: https://aeitzean.files.wordpress.com/2015/02/wall2.png
+
+10-09-03.fs, 10-09-03.vs: Self-attribution from workbook 10
